@@ -38,7 +38,7 @@ function extractVideoId(url) {
 
 function fetchYouTubeVideoInfo(videoId) {
   console.log('Fetching video info for video ID:', videoId);
-  fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=AIzaSyBY17lGcF84MMs2nDkiSQqnjSrZ4FotEvU`)
+  fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=Replace-With-youtube-api-key`)
     .then(response => {
       console.log('Response:', response);
       return response.json();
