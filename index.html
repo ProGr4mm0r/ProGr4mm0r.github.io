@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Card</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="add-card">Add Card</button>
+
+  <div class="input-container">
+    <div>
+      <label for="video-link">YouTube Link :</label>
+      <input type="text" id="video-link">
+    </div>
+
+    <button class="add-details">Add Card</button>
+    <span class="close">
+      <span class="pole left"></span>
+      <span class="pole right"></span>
+    </span>
+  </div>
+
+  <div class="card-container" id="cardContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
